@@ -1,5 +1,5 @@
-import {findWrapping, liftTarget, canSplit, ReplaceAroundStep} from "prosemirror-transform"
-import {Slice, Fragment, NodeRange} from "prosemirror-model"
+import {findWrapping, liftTarget, canSplit, ReplaceAroundStep} from "../../prosemirror-transform/src/index.js"
+import {Slice, Fragment, NodeRange} from "../../prosemirror-model/src/index.js"
 
 const olDOM = ["ol", 0], ulDOM = ["ul", 0], liDOM = ["li", 0]
 
